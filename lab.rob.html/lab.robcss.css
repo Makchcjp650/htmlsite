@@ -1,0 +1,55 @@
+body{
+	background-image: url(image/lviv.jpg);
+	margin-top: 150px;
+}
+
+#hs{
+	margin: center;
+	margin-left: 890px;
+	margin-right: 890px;
+	border: 5px solid brown;
+	border-radius: 10px;
+	display: block;
+	height: 20px;
+	background-color: antiquewhite;
+	transform: scale(1.0);
+	transition: 1.5s all;
+	box-shadow: 2px 2px gray;
+	text-decoration-color: black;
+}
+#hs:hover{
+	transform: scale(1.4);
+	border: 5px solid black;
+}
+#icon{
+	margin-top: 40px;
+	margin-left: 840px;
+	margin-right:850px ;
+	width: 200px;
+	height: 200px;
+	border: 10px solid darkslategrey;
+	border-radius: 100px;
+	display: block;
+	transform: scale(1.0);
+	transition: 1.5s all;
+}
+#icon:hover{
+	transform: scale(1.4);
+	border: 10px solid black;
+}
+#ldu{
+	margin-top: 40px;
+	margin-left: 840px;
+	margin-right:850px ;
+	width: 200px;
+	height: 200px;
+	border: 10px solid darkslategrey;
+	border-radius: 100px;
+	display: block;
+	transform: scale(1.0);
+	transition: 1.5s all;
+}
+#ldu:hover{
+	transform: scale(1.4);
+	border: 10px solid black;
+}
