@@ -105,7 +105,8 @@ ul li a:hover{
 	font-style: italic;
 }
 #TS{
-	margin-top: 40px;
+	margin-left: 150px;
+	margin-top: 100px;
 	width: 200px;
 	height: 200px;
 	border: 1px solid transparent;
@@ -119,7 +120,7 @@ ul li a:hover{
 	border: 2px solid black;
 }
 #IF{
-	margin-left: 500px;
+	margin-left: 550px;
 	margin-top: -200px;
 	width: 200px;
 	height: 200px;
