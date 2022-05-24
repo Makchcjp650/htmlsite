@@ -1,55 +1,165 @@
+
 body{
 	background-image: url(image/lviv.jpg);
-	margin-top: 150px;
-}
-
-#hs{
-	margin: center;
-	margin-left: 890px;
-	margin-right: 890px;
-	border: 5px solid brown;
-	border-radius: 10px;
+	margin-top: 20px;
+}	
+#hl1{
+	width: 70px;
+	border-radius: 25px;
 	display: block;
-	height: 20px;
-	background-color: antiquewhite;
+	background-color: white;
 	transform: scale(1.0);
-	transition: 1.5s all;
-	box-shadow: 2px 2px gray;
-	text-decoration-color: black;
+	transition: 0.3s all;
+	color: black;
+	opacity: 0.7;
+	text-decoration: none;
+}
+#hl1:hover{
+	transform: scale(1.1);
+	border: 0px solid black;
+	opacity: 0.9;
+}
+#hs{
+	margin-top: 30px;
+	width: 110px;
+	border-radius: 25px;
+	display: block;
+	background-color: white;
+	transform: scale(1.0);
+	transition: 0.3s all;
+	color: black;
+	opacity: 0.7;
+	text-decoration: none;
 }
 #hs:hover{
-	transform: scale(1.4);
-	border: 5px solid black;
+	transform: scale(1.1);
+	border: 0px solid black;
+	opacity: 0.9;
 }
-#icon{
+#hslv{
+	margin-top: 30px;
+	color: antiquewhite;
+	font-style: italic;
+}
+nav{
+	width: 500px;
+	margin: 0 auto;
+}
+nav:before{
+	content: '';
+	display: block;
+	height: 50px;
+	width: 100%;
+	background: darkgray;
+	position: absolute;
+	left: 0;
+	z-index: -1;
+}
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	height: 50px;
+}
+ul li {
+	float: left;
+}
+ul li a{
+	color: white;
+	display: block;
+	height: 50px;
+	padding: 0 30px;
+	text-transform: uppercase;
+	text-decoration: none;
+	line-height: 50px;
+}
+ul li a:hover{
+	background: black;
+}
+#ldu11{
 	margin-top: 40px;
-	margin-left: 840px;
-	margin-right:850px ;
+	margin-left: auto;
+	margin-right: auto ;
 	width: 200px;
 	height: 200px;
-	border: 10px solid darkslategrey;
+	border: 1px solid transparent;
 	border-radius: 100px;
 	display: block;
 	transform: scale(1.0);
-	transition: 1.5s all;
+	transition: 1.1s all;
+	opacity: 0.7;
 }
-#icon:hover{
-	transform: scale(1.4);
-	border: 10px solid black;
+#ldu11:hover{
+	transform: scale(1.2);
+	border: 4px solid black;
+	opacity: 1.0;
 }
-#ldu{
+#aboutlv{
+	margin-top: 450px;
+	color: antiquewhite;
+	font-style: italic;
+}
+#ldu12{
+	color: antiquewhite;
+	margin-top: 200px;
+	font-style: italic;
+}
+#TS{
 	margin-top: 40px;
-	margin-left: 840px;
-	margin-right:850px ;
 	width: 200px;
 	height: 200px;
-	border: 10px solid darkslategrey;
+	border: 1px solid transparent;
 	border-radius: 100px;
 	display: block;
 	transform: scale(1.0);
-	transition: 1.5s all;
+	transition: 1.1s all;
 }
-#ldu:hover{
-	transform: scale(1.4);
-	border: 10px solid black;
+#TS:hover{
+	transform: scale(1.1);
+	border: 2px solid black;
+}
+#IF{
+	margin-left: 500px;
+	margin-top: -200px;
+	width: 200px;
+	height: 200px;
+	border: 1px solid transparent;
+	border-radius: 100px;
+	display: block;
+	transform: scale(1.0);
+	transition: 1.1s all;
+}
+#IF:hover{
+	transform: scale(1.1);
+	border: 2px solid black;
+}
+#SY{
+	margin-left: 1000px;
+	margin-top: -200px;
+	width: 200px;
+	height: 200px;
+	border: 1px solid transparent;
+	border-radius: 100px;
+	display: block;
+	transform: scale(1.0);
+	transition: 1.1s all;
+}
+#SY:hover{
+	transform: scale(1.1);
+	border: 2px solid black;
+}
+#SB{
+	margin-left: 1500px;
+	margin-top: -200px;
+	width: 200px;
+	height: 200px;
+	border: 1px solid transparent;
+	border-radius: 100px;
+	display: block;
+	transform: scale(1.0);
+	transition: 1.1s all;
+}
+#SB:hover{
+	transform: scale(1.1);
+	border: 2px solid black;
 }
